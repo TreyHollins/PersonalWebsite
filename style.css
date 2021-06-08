@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    line-height: 1.6;
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin-top: 60px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 1);
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+
+.navbar ul li a:hover {
+    color:slategray;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+section h1 {
+    font-size: 4rem;
+}
+
+section h2 {
+    font-size: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+section p {
+    font-size: 1.5rem;
+}
+
+section#home {
+    background: url(./Images/mountain.jpg)no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+}
+
+section#about {
+    background: snow;
+    color: #313131;
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    padding: 96px 0px 66px 0px;
+}
+
+section#contact {
+    background: #191919;
+    color: #EBEEEE;
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    padding: 40px 0px 60px 0px;
+}
+
+.aboutMe {
+    display: inline-block;
+    height: 45%;
+    width: 75%;
+    font-size: 1.25em;
+
+}
+
+.education {
+    display: inline-block;
+    height: 45%;
+    width: 75%;
+
+}
+
+.workExperience {
+    display: inline-block;
+    height: 45%;
+    width: 75%;
+
+}
+
+#about h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+#about p {
+    font-size: 1.1em;
+}
+
+#about h3 {
+    font-size: 1.65em;
+}
+
+#about em {
+    font-size: 1.1em;
+}
+
+.resume-btn {
+    margin-top: .5em;
+    height: 10%;
+    width: auto;
+}
+
+#resumeButton {
+    background: #444;
+    color: #fff;
+    font-size: 3rem;
+    padding: 0.25rem;
+    margin: 0.75rem;
+    border-radius: 0.5rem;
+    transition: color 500ms, background-color 500ms;
+}
+
+#resumeButton:hover {
+    cursor: pointer;
+    background-color: #a3a3a3;
+    color:black;
+}
+
+#contact p {
+    text-align: center;
+    color: #636363;
+    font-size: 1.25rem;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.email-form {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: auto;
+}
+
+.formSection {
+    padding: .5em;
+    margin: 1em;
+}
+
+.formLabel {
+    margin: 12px 0;
+    color: #EBEEEE;
+    display: block;
+    float: left;
+    width: 26%;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.formInput {
+    padding: 18px 20px;
+    color: #eee;
+    background: #373233;
+    margin-bottom: 2.15rem;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    width: 65%;
+}
+
+#submitButton {
+    padding: 1rem;
+    margin: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #000000;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+}
+
+footer p {
+    font-size: 0.5rem;
+    color: #696969;
+}
